@@ -1,8 +1,6 @@
 name: Auto /retest
 on:
   workflow_dispatch:
-  schedule:
-  - cron: 5,15,25,35,45,55 * * * *
 concurrency:
   group: Auto /retest
   cancel-in-progress: false
